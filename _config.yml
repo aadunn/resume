@@ -93,7 +93,7 @@ resume_skills:
     technologies:
       - "Xamarin"
       - "React Native"
-  - title: "Programming Languages and Frameworks"
+  - title: "Programming Languages, Frameworks, and Technologies"
     description: ""
     technologies:
       - "Java"
@@ -101,4 +101,5 @@ resume_skills:
       - "Python (2 and 3)"
       - "<a href=\"https://spring.io/\">Spring</a>"
       - "<a href=\"https://loopback.io/\">LoopBack</a>"
+      - "Docker"
       
