@@ -94,8 +94,8 @@ resume_skills:
       - "Xamarin"
       - "React Native"
   - title: "Programming Languages and Frameworks"
-    description:
-    languages:
+    description: ""
+    technologies:
       - "Java"
       - "C#"
       - "Python (2 and 3)"
