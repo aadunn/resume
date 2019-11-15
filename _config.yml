@@ -1,5 +1,5 @@
 # Site settings
-title: "Andy Boutte"
+title: "Alex Dunn"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
@@ -10,43 +10,95 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Andy Boutte"
-resume_title:                   "Cloud Architect"
-resume_contact_email:           "andyboutte@gmail.com"
-resume_header_location:         "Cedar Rapids, Iowa"
-resume_header_phone:            "805-234-7399"
+resume_name:                    "Alex Dunn"
+resume_title:                   "Software Developer"
+resume_contact_email:           "alex@aadunn.ca"
+resume_header_location:         "Halifax, Nova Scotia, Canada"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work:        true
 
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
-# resume_section_education:       true
-resume_section_projects:        true
+resume_section_education:       true
+# resume_section_projects:        true
 resume_section_skills:          true
 # resume_section_recognition:     true
 # resume_section_links:           true
-resume_section_associations:    true # certifications
+# resume_section_associations:    true # certifications
 
 # Resume social links
-# uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/aboutte"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/aboutte"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
+  resume_github_url:            "https://github.com/aadunn"
+  resume_linkedin_url:          "https://www.linkedin.com/in/adunnn/"
+  # resume_website_url:           "http://www.aadunn.ca"
 resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+# Resume content
+resume_summary: "Software developer providing 2 years of professional experience in full-stack web development, cross-platform mobile development, project management, and IT support. Excited for the opportunity to learn something new and to hone existing skills."
+resume_experience:
+  - company: "Liberated Networks"
+    title: "Software Developer"
+    date: "May 2018 &mdash; October 2019"
+    action_items:
+      - "Actively develop with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, Mongo, and more."
+      - "Primary contact and developer on a real-time utility ticketing system which managed mulitple teams across multiple systems."
+      - "Maintain and extend large corporate inventory systems to manage netionwide assets and data."
+  - company: "Gracenote Inc."
+    title: "Full Stack Software Developer (Co-op)"
+    date: "September 2016 &mdash; December 2016, May 2018 &mdash; September 2018"
+    action_items:
+      - "Develop and maintain endpoints for a Loopback API with a MongoDB backend."
+      - "Develop and maintain embeddable, interactive widgets to display data served from API."
+  - company: "CarteNav Solutions Inc."
+    title: "QA Software Tester (Co-op)"
+    date: "January 2016 &mdash; May 2016"
+    action_items:
+      - "Develop an automated testing suite for an existing software project with automatic error reporting."
+      - "Monitor software stability and provide insight on rising issues to team leader."
+
+resume_education:
+  - school: "Dalhousie University"
+    title: "Bachelor of Computer Science"
+    date: "September 2013 &mdash; June 2019"
+resume_skills:
+  - title: "Web Development"
+    description: "Apart from a proficieny with HTML5 and CSS3, I am also proficient with the following:"
+    technologies:
+      - "JavaScript"
+      - "NodeJS"
+      - "Angular"
+      - "WebSocket"
+      - "Kafka"
+      - "Jekyll"
+      - "ASP.NET"
+      - "CSS Preprocessors (Sass, Less)"
+  - title: "Data Storage"
+    description: ""
+    technologies:
+      - "MySQL"
+      - "Microsoft SQL Server"
+      - "MongoDB"
+      - "PostgreSQL"
+      - "Redis"
+  - title: "Mobile Development"
+    description: ""
+    technologies:
+      - "Xamarin"
+      - "React Native"
+  - title: "Programming Languages and Frameworks"
+    description:
+    technologies:
+      - "Java"
+      - "C#"
+      - "Python (2 and 3)"
+      - "<a href=\"https://spring.io/\">Spring</a>"
+      - "<a href=\"https://loopback.io/\">LoopBack</a>"
+      
