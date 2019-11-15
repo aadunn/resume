@@ -76,17 +76,17 @@ resume_skills:
       - "NodeJS"
       - "Angular"
       - "WebSocket"
-      - "Kafka"
       - "Jekyll"
       - "ASP.NET"
       - "CSS Preprocessors (Sass, Less)"
-  - title: "Data Storage"
+  - title: "Backend"
     description: ""
     technologies:
       - "MySQL"
       - "Microsoft SQL Server"
       - "MongoDB"
       - "PostgreSQL"
+      - "Kafka"
       - "Redis"
   - title: "Mobile Development"
     description: ""
@@ -95,7 +95,7 @@ resume_skills:
       - "React Native"
   - title: "Programming Languages and Frameworks"
     description:
-    technologies:
+    languages:
       - "Java"
       - "C#"
       - "Python (2 and 3)"
