@@ -1,6 +1,6 @@
 # Site settings
 title: "Alex Dunn"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "Built with Jekyll."
 
 # Build settings
 markdown: kramdown
