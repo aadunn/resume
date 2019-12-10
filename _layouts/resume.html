@@ -38,16 +38,6 @@
           <p>{{ site.resume_summary }}</p>
         </div>
 
-        {% if site.resume_looking_for_work %}
-        <div style="width: 100%; overflow: hidden;">
-          <div style="width: 300px; float: left;"> <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> </div>
-          <div style="margin-left: 320px;"> <a href="images/resume.pdf" download="alex_dunn_resume" class="contact-button no-print" itemprop="email">Download Resume</a> </div>
-        </div>
-
-        {% else %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% endif %}
-
       </header>
 
       {% if site.resume_section_experience %}
