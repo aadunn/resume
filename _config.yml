@@ -8,6 +8,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
+exclude:
+  - Gemfile*
+  - node_modules/
+  - vendor/
+
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Alex Dunn"
@@ -36,19 +41,26 @@ resume_social_links:
   resume_github_url:            "https://github.com/aadunn"
   resume_linkedin_url:          "https://www.linkedin.com/in/adunnn/"
   # resume_website_url:           "http://www.aadunn.ca"
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
 resume_theme:                   default
 
 # Resume content
-resume_summary: "Software developer providing 2 years of professional experience in full-stack web development, cross-platform mobile development, project management, and IT support. Excited for the opportunity to learn something new and to hone existing skills."
+resume_summary: "Software developer providing 6 years of professional experience in API development, full-stack web development, and cross-platform mobile development. Excited for the opportunity to learn something new and to hone existing skills."
 resume_experience:
+  - company: "Swarmio Media Inc."
+    title: "Senior Software Engineer"
+    date: "January 2020 &mdash; Present"
+    action_items:
+      - "Developing GraphQL microservices to query and manipulate user data in support of web applications."
+      - "Utilize languages and technologies such as Scala, GraphQL, MongoDB, Kubernetes, among others."
+      - "Provide support and training to coworkers and new hires to grow our software team's abilities."
   - company: "Liberated Networks"
     title: "Software Developer"
     date: "May 2018 &mdash; October 2019"
     action_items:
-      - "Actively develop with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, Mongo, and more."
+      - "Develop with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, MongoDB, and more."
       - "Primary contact and developer on a real-time utility ticketing system which managed mulitple teams across multiple systems."
       - "Maintain and extend large corporate inventory systems to manage nationwide assets and data."
   - company: "Gracenote Inc."
@@ -57,20 +69,23 @@ resume_experience:
     action_items:
       - "Develop and maintain endpoints for a Loopback API with a MongoDB backend."
       - "Develop and maintain embeddable, interactive widgets to display data served from API."
-  - company: "CarteNav Solutions Inc."
-    title: "QA Software Tester (Co-op)"
-    date: "January 2016 &mdash; May 2016"
-    action_items:
-      - "Develop an automated testing suite for an existing software project with automatic error reporting."
-      - "Monitor software stability and provide insight on rising issues to team leader."
 
 resume_education:
   - school: "Dalhousie University"
     title: "Bachelor of Computer Science"
     date: "September 2013 &mdash; June 2019"
 resume_skills:
+  - title: "Back-end API Development"
+    description: ""
+    technologies:
+      - "Scala"
+      - "Java"
+      - "GraphQL"
+      - "REST"
+      - "MongoDB"
+      - "MySQL"
   - title: "Web Development"
-    description: "Apart from a proficieny with HTML5 and CSS3, I am also proficient with the following:"
+    description: ""
     technologies:
       - "JavaScript"
       - "NodeJS"
@@ -80,15 +95,6 @@ resume_skills:
       - "Jekyll"
       - "ASP.NET"
       - "CSS Preprocessors (Sass, Less)"
-  - title: "Backend"
-    description: ""
-    technologies:
-      - "MySQL"
-      - "Microsoft SQL Server"
-      - "MongoDB"
-      - "PostgreSQL"
-      - "Kafka"
-      - "Redis"
   - title: "Mobile Development"
     description: ""
     technologies:
@@ -98,9 +104,9 @@ resume_skills:
     description: ""
     technologies:
       - "Java"
-      - "C#"
-      - "Python (2 and 3)"
-      - "<a href=\"https://spring.io/\">Spring</a>"
-      - "<a href=\"https://loopback.io/\">LoopBack</a>"
+      - "Scala"
+      - "Python"
+      - "GraphQL"
       - "Docker"
+      - "Kubernetes"
       

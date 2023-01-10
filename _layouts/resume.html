@@ -75,8 +75,8 @@
 
         {% for degree in site.resume_education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ degree.school }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ degree.title }}</h4>
+          <h3 class="education-item-details" itemprop="description">{{ degree.title }}</h4>
+          <h4 class="resume-item-title" itemprop="name">{{ degree.school }}</h3>
           <p class="resume-item-details">{{ degree.date }}</p>
         </div>
         {% endfor %}

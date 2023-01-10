@@ -160,6 +160,20 @@
     line-height: 1;
   }
 
+  .education-item-details {
+    @include sans_bold;
+    margin: 0 0 .75rem;
+    font-size: 1.3rem;
+    letter-spacing: -.05rem;
+    line-height: 1;
+  }
+
+  .education-item-title {
+    font-size: 1.125rem;
+    margin: 0 0 .75rem;
+    line-height: 1;
+  }
+
   .skills-resume-item-details {
     font-size: 1.125rem;
     margin: 0 0 .75rem;
