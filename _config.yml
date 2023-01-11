@@ -54,21 +54,21 @@ resume_experience:
     date: "January 2020 &mdash; Present"
     action_items:
       - "Developing GraphQL microservices to query and manipulate user data in support of web applications."
-      - "Utilize languages and technologies such as Scala, GraphQL, MongoDB, Kubernetes, among others."
-      - "Provide support and training to coworkers and new hires to grow our software team's abilities."
+      - "Utilizing languages and technologies such as Scala, GraphQL, MongoDB, Kubernetes, among others."
+      - "Providing support and training to coworkers and new hires to grow our software team's abilities."
   - company: "Liberated Networks"
     title: "Software Developer"
     date: "May 2018 &mdash; October 2019"
     action_items:
-      - "Develop with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, MongoDB, and more."
-      - "Primary contact and developer on a real-time utility ticketing system which managed multiple teams across multiple systems."
-      - "Maintain and extend large corporate inventory systems to manage nationwide assets and data."
+      - "Developing with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, MongoDB, and more."
+      - "Primary contact and developer on a real-time utility ticketing system used for managing multiple teams across multiple systems."
+      - "Maintaining and extend large corporate inventory systems to manage nationwide assets and data."
   - company: "Gracenote Inc."
     title: "Full Stack Software Developer (Co-op)"
     date: "September 2016 &mdash; December 2016, May 2018 &mdash; September 2018"
     action_items:
-      - "Develop and maintain endpoints for a Loopback API with a MongoDB backend."
-      - "Develop and maintain embeddable, interactive widgets to display data served from API."
+      - "Developing and maintaining endpoints for a Loopback API with a MongoDB backend."
+      - "Developing and maintaining embeddable, interactive widgets to display data served from API."
 
 resume_education:
   - school: "Dalhousie University"

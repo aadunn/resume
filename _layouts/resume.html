@@ -50,9 +50,11 @@
 
         {% for job in site.resume_experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <div>
+            <h3 class="resume-item-title inline" itemprop="name">{{ job.company }}</h3>
+            <div class="inline italic">{{ job.date }}</div>
+          </div>
           <h4 class="resume-item-details" itemprop="description">{{ job.title }}</h4>
-          <p class="resume-item-details">{{ job.date }}</p>
           <ul class="resume-item-list">
             {% for action_item in job.action_items %}
             <li>{{ action_item }}</li>
@@ -75,10 +77,10 @@
 
         {% for degree in site.resume_education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="education-item-details" itemprop="description">{{ degree.title }}</h4>
-          <h4 class="resume-item-title" itemprop="name">{{ degree.school }}</h3>
-          <p class="resume-item-details">{{ degree.date }}</p>
-        </div>
+  
+          <h4 class="education-item-details" itemprop="description">{{ degree.title }}</h4>
+          <h5 class="resume-item-title" itemprop="name">{{ degree.school }}</h3>
+        
         {% endfor %}
 
       </section>
@@ -230,10 +232,6 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
-      <footer class="page-footer">
-        <p class="footer-line"><a href="images/resume.pdf"></a></p>
-      </footer>
 
     </div>
   {% if jekyll.environment == 'production' %}

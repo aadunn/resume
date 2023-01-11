@@ -148,15 +148,15 @@
 
   .resume-item-title {
     @include sans_bold;
-    margin: 0 0 .75rem;
-    font-size: 1.3rem;
+    margin: 0 10px 0 0;
+    font-size: 1.2rem;
     letter-spacing: -.05rem;
     line-height: 1;
   }
 
   .resume-item-details {
     font-size: 1.125rem;
-    margin: 0 0 .75rem;
+    margin: 10px 0 .75rem;
     line-height: 1;
   }
 
@@ -164,6 +164,7 @@
     @include sans_bold;
     margin: 0 0 .75rem;
     font-size: 1.3rem;
+    font-style: italic;
     letter-spacing: -.05rem;
     line-height: 1;
   }
@@ -199,6 +200,14 @@
   .resume-item-copy {
     margin: .75rem 0 0;
   }
+}
+
+.inline {
+  display: inline;
+}
+
+.italic {
+  font-style: italic;
 }
 
 // footer styles
