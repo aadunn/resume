@@ -47,7 +47,7 @@ resume_print_social_links:      false
 resume_theme:                   default
 
 # Resume content
-resume_summary: "Software developer providing 6 years of professional experience in API development, full-stack web development, and cross-platform mobile development. Excited for the opportunity to learn something new and to hone existing skills."
+resume_summary: "Software developer providing 6 years of professional experience in API development and full-stack web development. I am excited for the opportunity to learn something new and to hone existing skills.\nI spend my personal time shooting photos with film cameras and playing the drums."
 resume_experience:
   - company: "Swarmio Media Inc."
     title: "Senior Software Engineer"
@@ -73,7 +73,7 @@ resume_experience:
 resume_education:
   - school: "Dalhousie University"
     title: "Bachelor of Computer Science"
-    date: "September 2013 &mdash; June 2019"
+    date: "Class of 2019"
 resume_skills:
   - title: "Back-end API Development"
     description: ""
@@ -87,19 +87,10 @@ resume_skills:
   - title: "Web Development"
     description: ""
     technologies:
-      - "JavaScript"
+      - "JavaScript, TypeScript"
       - "NodeJS"
-      - "Angular"
-      - "PHP"
-      - "WebSocket"
       - "Jekyll"
-      - "ASP.NET"
       - "CSS Preprocessors (Sass, Less)"
-  - title: "Mobile Development"
-    description: ""
-    technologies:
-      - "Xamarin"
-      - "React Native"
   - title: "Programming Languages, Frameworks, and Technologies"
     description: ""
     technologies:
