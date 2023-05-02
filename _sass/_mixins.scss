@@ -55,22 +55,22 @@
 }
 
 @mixin sans_light {
-  @include sans;
+  @include serif;
   font-weight: 300;
 }
 
 @mixin sans_regular {
-  @include sans;
+  @include serif;
   font-weight: 400;
 }
 
 @mixin sans_bold {
-  @include sans;
+  @include serif;
   font-weight: 600;
 }
 
 @mixin sans_extrabold {
-  @include sans;
+  @include serif;
   font-weight: 800;
 }
 

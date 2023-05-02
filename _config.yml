@@ -54,8 +54,13 @@ resume_experience:
     date: "January 2020 &mdash; Present"
     action_items:
       - "Developing GraphQL microservices to query and manipulate user data in support of web applications."
-      - "Utilizing languages and technologies such as Scala, GraphQL, MongoDB, Kubernetes, among others."
+      - "Utilizing languages and technologies such as Scala, Java, GraphQL, MongoDB, Kubernetes, among others."
       - "Providing support and training to coworkers and new hires to grow our software team's abilities."
+  - company: "Tutor"
+    date: "January 2020 &mdash; Present"
+    action_items:
+      - "Providing support and guidance for local students taking programming classes at a post-secondary level."
+      - "Preparing lesson plans based around my student's assignments to give relevant guidance centred around what they know and what they are working toward."
   - company: "Liberated Networks"
     title: "Software Developer"
     date: "May 2018 &mdash; October 2019"
