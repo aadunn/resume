@@ -96,13 +96,14 @@ resume_skills:
       - "NodeJS"
       - "Jekyll"
       - "CSS Preprocessors (Sass, Less)"
-  - title: "Programming Languages, Frameworks, and Technologies"
+  - title: "Continuous Integration / Deployment"
     description: ""
     technologies:
-      - "Java"
-      - "Scala"
-      - "Python"
-      - "GraphQL"
       - "Docker"
       - "Kubernetes"
+      - "GCP"
+      - "AWS"
+      - "ArgoCD"
+      - "Gitlab Pipelines"
+      
       
