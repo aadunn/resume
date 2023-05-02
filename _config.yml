@@ -80,7 +80,7 @@ resume_education:
     title: "Bachelor of Computer Science"
     date: "Class of 2019"
 resume_skills:
-  - title: "Back-end API Development"
+  - title: "Back-end Development"
     description: ""
     technologies:
       - "Scala"
