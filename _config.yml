@@ -59,21 +59,21 @@ resume_experience:
   - company: "Tutor"
     date: "January 2020 &mdash; Present"
     action_items:
-      - "Providing support and guidance for local students taking programming classes at a post-secondary level."
-      - "Preparing lesson plans based around my student's assignments to give relevant guidance centred around what they know and what they are working toward."
+      - "Providing support and guidance for students taking programming classes at a post-secondary level."
+      - "Preparing lesson plans using my student's assignments to provide relevant and personalized guidance."
   - company: "Liberated Networks"
     title: "Software Developer"
     date: "May 2018 &mdash; October 2019"
     action_items:
-      - "Developing with C#, Java, JavaScript, Angular, Python, MySQL, MSSQL, MongoDB, and more."
-      - "Primary contact and developer on a real-time utility ticketing system used for managing multiple teams across multiple systems."
-      - "Maintaining and extend large corporate inventory systems to manage nationwide assets and data."
+      - "Developing a real-time ticketing and project management web application for St. John Energy while communicating with the client to understand a meet solution requirements."
+      - "Extending and maintaining inventory systems for Bell Canada used to manage nationwide assets and data."
+      - "Developing with C#, Java, JavaScript, Angular, WebSocket, Python, MySQL, MSSQL, MongoDB, and more."
   - company: "Gracenote Inc."
     title: "Full Stack Software Developer (Co-op)"
     date: "September 2016 &mdash; December 2016, May 2018 &mdash; September 2018"
     action_items:
-      - "Developing and maintaining endpoints for a Loopback API with a MongoDB backend."
-      - "Developing and maintaining embeddable, interactive widgets to display data served from API."
+      - "Developing GHOSTS, a RESTful API in Node.js to serve, filter, and sort sports data from a MongoDB database."
+      - "Developing embeddable, interactive widgets to display sports data served from API with a mobile first design."
 
 resume_education:
   - school: "Dalhousie University"
